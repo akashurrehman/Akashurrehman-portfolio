@@ -1,12 +1,12 @@
+import React from 'react';
+import About from './components/About';
+
 
 function App() {
   return (
-    <div style={{textalign:"center", justifyContent:"center", marginHorizontal:"10renm"}}>
-      <a href="https://github.com/akashurrehman" target="_blank" rel="noopener noreferrer">
-          Go to Github
-      </a>
-
-    </div>
+    <>
+      <About />
+    </>
   );
 }
 
