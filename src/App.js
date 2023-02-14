@@ -1,13 +1,19 @@
 import React from 'react';
+import Home from './components/Home';
+
+import { Route,BrowserRouter,Routes } from 'react-router-dom';
 import About from './components/About';
 
-
-function App() {
+const App=()=>{
   return (
-    <>
-      <About />
-    </>
+    <div>
+      <BrowserRouter>      
+        <Routes>
+          <Route exact path="/home" element={<Home />} />
+          <Route exact path='/about' element={<About/>}/>
+        </Routes>
+      </BrowserRouter>   
+    </div>
   );
 }
-
 export default App;

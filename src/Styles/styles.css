@@ -1,4 +1,4 @@
-#page-content{
+.page-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,7 @@
 #sidebar{
     display: flex;
     justify-content: center;
+    color: "#E0E0E5";
     align-items: center;
     height: 100vh; /* adjust to your needs */
 }
@@ -15,6 +16,7 @@
 }
 .circle-image-container {
     display: flex;
+    margin-left: 25px;
     justify-content: center;
     align-items: center;
     width: 200px;
@@ -25,6 +27,21 @@
   
   .circle-image {
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    padding: 10px;
+    color:#F9F4F5;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    
   }
   
