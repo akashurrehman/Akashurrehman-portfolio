@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <div className="sticky-top position-fixed" style={{ display: 'flex', height: '100vh', paddingLeft:"45px"}} id="sticky-sidebar">
       <CDBSidebar textColor="#FFFFFF" backgroundColor="#353353"   breakpoint={720} >
-      <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
+      <CDBSidebarHeader>
             <NavLink exact to="/HomeScreen" activeClassName="activeClicked">
               <CDBSidebarMenuItem style={{paddingBottom:"50px",color:"#E0E0E5"}}>AUR</CDBSidebarMenuItem>
             </NavLink>

@@ -4,6 +4,8 @@ import Sidebar from "./Sidebar";
 import './../Styles/styles.css'
 import profileimg from './../Images/new.jpg'
 import About from "./About";
+import Services from "./Services";
+import Experience from "./Experience";
 const Home = props => {
   const [textIndex, setTextIndex] = useState(0);
   const text = 'DEVELOPER';
@@ -60,6 +62,12 @@ const Home = props => {
       </section>
       <section id="about">
       <About />  
+      </section>
+      <section id="Services">
+        <Services />
+      </section>
+      <section id="Experience">
+        <Experience />
       </section>             
     </Col> 
   </Row>
