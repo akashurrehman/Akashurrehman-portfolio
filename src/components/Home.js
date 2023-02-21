@@ -6,6 +6,8 @@ import profileimg from './../Images/new.jpg'
 import About from "./About";
 import Services from "./Services";
 import Experience from "./Experience";
+import Works from "./Work";
+import Reviews from "./Reviews";
 const Home = props => {
   const [textIndex, setTextIndex] = useState(0);
   const text = 'DEVELOPER';
@@ -68,7 +70,13 @@ const Home = props => {
       </section>
       <section id="Experience">
         <Experience />
-      </section>             
+      </section>
+      <section id="Work">
+        <Works />
+      </section>
+      <section id="Reviews">
+        <Reviews />
+      </section>                        
     </Col> 
   </Row>
   </Container>
