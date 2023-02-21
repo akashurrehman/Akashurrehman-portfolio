@@ -40,6 +40,34 @@ function Reviews() {
                 <Col md={3}>
                 </Col>
             </Row>
+            <Row>
+                <Col md={3} style={{textAlign:'center',justifyContent:"center"}}>
+                    <i className="fa fa-facebook" />
+                </Col>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+                <Col md={3}>
+                    <i className="fa fa-facebook" />
+                </Col>
+            </Row>
         </div>
     );
 }

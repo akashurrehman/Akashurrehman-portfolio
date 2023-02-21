@@ -8,6 +8,7 @@ import Services from "./Services";
 import Experience from "./Experience";
 import Works from "./Work";
 import Reviews from "./Reviews";
+import Blog from "./Blog";
 const Home = props => {
   const [textIndex, setTextIndex] = useState(0);
   const text = 'DEVELOPER';
@@ -76,10 +77,13 @@ const Home = props => {
       </section>
       <section id="Reviews">
         <Reviews />
+      </section>
+      <section id="Blog">
+        <Blog />
       </section>                        
     </Col> 
   </Row>
-  </Container>
+</Container>
 
 );
 };
