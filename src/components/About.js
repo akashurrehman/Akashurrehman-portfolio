@@ -67,29 +67,29 @@ function About() {
                 </Col>
                 <Col xs={12} md={2}>
                     <h3>10+</h3>
-                    <h2>Projects completed</h2>
+                    <h5>Projects completed</h5>
                 </Col>
-                <Col xs={12} md={1}>
+                <Col xs={12} md={1} style={{justifyContent:"center",alignItems:"center",fontSize:"25px",paddingTop:"2rem"}}>
+                    <i className="fa fa-google" />
+                </Col>
+                <Col xs={12} md={2} >
+                    <h3>10+</h3>
+                    <h5>Projects completed</h5>
+                </Col>
+                <Col xs={12} md={1} style={{justifyContent:"center",alignItems:"center",fontSize:"25px",paddingTop:"2rem"}}>
                     <i className="fa fa-google" />
                 </Col>
                 <Col xs={12} md={2}>
                     <h3>10+</h3>
-                    <h2>Projects completed</h2>
-                </Col>
-                <Col xs={12} md={1}>
-                    <i className="fa fa-google" />
-                </Col>
-                <Col xs={12} md={2}>
-                    <h3>10+</h3>
-                    <h2>Projects completed</h2>
+                    <h5>Projects completed</h5>
                 </Col>
 
-                <Col xs={12} md={1}>
+                <Col xs={12} md={1} style={{justifyContent:"center",alignItems:"center",fontSize:"25px",paddingTop:"2rem"}}>
                     <i className="fa fa-google" />
                 </Col>
                 <Col xs={12} md={2}>
                     <h3>10+</h3>
-                    <h2>Projects completed</h2>
+                    <h5>Projects completed</h5>
                 </Col>
             </Row>
         </div>           
