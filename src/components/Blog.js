@@ -20,10 +20,8 @@ function Blog(){
         }
       ];
     return (
-        <>
         <div className="pt-5" style={{paddingLeft:"3rem"}} id="Blog">
             Latest Posts
-        </div>
         <Row>
         {data.map(card => (
             <Col xs={12} md={4} key={card.title}>
@@ -36,9 +34,9 @@ function Blog(){
             </Card>
             </Col>
         ))}
+        
     </Row>
-    </>
+    </div>
     )
-
 }
 export default Blog;
