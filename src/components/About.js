@@ -62,33 +62,34 @@ function About() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} md={3}>
-                    <div className="circle-img-container">
-                    <i className="fa-brands fa-gripfire" />
-                        <h3>10+</h3>
-                        <h2>Projects completed</h2>
-                    </div>
+                <Col xs={12} md={1}>
+                    <i className="fa fa-google" />
                 </Col>
-                <Col xs={12} md={3}>
-                    <div className="circle-img-container">
-                        <i className="fa-solid fa-mug-hot" />
-                        <h3>1523</h3>
-                        <h2>Cup of Coffee</h2>
-                    </div>
+                <Col xs={12} md={2}>
+                    <h3>10+</h3>
+                    <h2>Projects completed</h2>
                 </Col>
-                <Col xs={12} md={3}>
-                    <div className="circle-img-container">
-                        <i className="fa fa-google"/>
-                        <h3>15+</h3>
-                        <h2>Satisfied Clients</h2>
-                    </div>
+                <Col xs={12} md={1}>
+                    <i className="fa fa-google" />
                 </Col>
-                <Col xs={12} md={3}>
-                    <div className="circle-img-container">
-                        <i className="fa fa-google"/>
-                        <h3>12</h3>
-                        <h2>Nominees Winner</h2>
-                    </div>
+                <Col xs={12} md={2}>
+                    <h3>10+</h3>
+                    <h2>Projects completed</h2>
+                </Col>
+                <Col xs={12} md={1}>
+                    <i className="fa fa-google" />
+                </Col>
+                <Col xs={12} md={2}>
+                    <h3>10+</h3>
+                    <h2>Projects completed</h2>
+                </Col>
+
+                <Col xs={12} md={1}>
+                    <i className="fa fa-google" />
+                </Col>
+                <Col xs={12} md={2}>
+                    <h3>10+</h3>
+                    <h2>Projects completed</h2>
                 </Col>
             </Row>
         </div>           
