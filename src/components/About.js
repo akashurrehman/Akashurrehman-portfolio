@@ -62,8 +62,8 @@ function About() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} md={1}>
-                    <i className="fa fa-google" />
+                <Col xs={12} md={1} style={{justifyContent:"center",alignItems:"center",fontSize:"25px",paddingTop:"2rem"}}>
+                    <i className="fa fa-google"/>
                 </Col>
                 <Col xs={12} md={2}>
                     <h3>10+</h3>
