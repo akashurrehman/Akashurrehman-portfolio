@@ -4,7 +4,7 @@ import { Card, Col,Row } from 'react-bootstrap';
 function Experience() {
 
     return (
-        <div className="pt-5" style={{paddingLeft:"3rem"}} id="Experience">
+        <div className="pt-5" style={{paddingLeft:"3rem",paddingTop:"6rem", backgroundColor:"#F9F9FF",paddingBottom:"3rem"}} id="Experience">
             <Row>
                 <Col xs={12}>
                     <h3>Experience</h3>

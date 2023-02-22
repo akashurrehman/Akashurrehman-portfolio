@@ -5,20 +5,20 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function About() {
     return (
-        <div className="pt-5" style={{paddingLeft:"3rem"}} id="about">
+        <div className="pt-5" style={{paddingLeft:"3rem",paddingTop:"3rem", backgroundColor:"#F9F9FF"}} id="about">
            <Col xs={12}>
-                <h1 style={{paddingLeft:"3rem"}}>
+                <h1 style={{paddingLeft:"1.5rem"}}>
                     About Me
                 </h1>
             </Col>
             <Row>
                 <Col xs={12} md={3}>
                     <div className="circle-image-container">
-                        <img src={profileimg} alt="My Image" className="circle-image" />
+                        <img src={profileimg} alt="My Image" className="circle-image" style={{width:"100%",height:"100%",fontSize:"60px"}}/>
                     </div>
                 </Col>
                 <Col xs={12} md={9}>
-                    <Card>
+                    <Card style={{borderRadius:"18px",paddingTop:"1.2rem",paddingBottom:"1.5rem"}}>
                         <Card.Body>
                             <Row>
                                 <Col>
@@ -26,27 +26,33 @@ function About() {
                                         <h1 style={{fontSize:"1.2rem", fontFamily:"serif"}}>
                                         I am Akash Ur Rehman, Mern Stack developer from Punjab, Pakistan. I have rich experience in web site design and building and customization, also I am good at WordPress.
                                         </h1>
-                                        <Button style={{}} onClick={console.log("Download CV FROM BACKEND")}>
+                                        <Button className="px-4 mt-3" style={{borderRadius:"16px",borderColor:"#FF4C60",backgroundColor:"#FF4C60"}} onClick={console.log("Download CV FROM BACKEND")}>
                                             Download CV
                                         </Button>    
                                     </div>
                                 </Col>
                                 <Col>
                                     <div style={{ height: '100%' }}>
-                                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                                            <h5>Development</h5>
-                                            <h5>85%</h5>
-                                        <ProgressBar striped variant="success" now={50} />
+                                        <div style={{paddingBottom:"1rem"}}>
+                                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                                                <h5 style={{ margin: 0 }}>Web Development</h5>
+                                                <h5 style={{ margin: 0 }}>90%</h5>
+                                            </div>
+                                            <ProgressBar striped variant="success" now={90} style={{height:"8px"}}/>
                                         </div>
-                                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                                            <h5>Development</h5>
-                                            <h5>85%</h5>
-                                        <ProgressBar striped variant="info" now={70} />
+                                        <div style={{paddingBottom:"1rem"}}>
+                                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                                                <h5>Mobile Development</h5>
+                                                <h5>80%</h5>
+                                            </div>        
+                                            <ProgressBar striped variant="info" now={80} style={{height:"8px"}}/>
                                         </div>
-                                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                                            <h5>Development</h5>
-                                            <h5>85%</h5>
-                                        <ProgressBar striped variant="warning" now={85} />
+                                        <div style={{paddingBottom:"1rem"}}>
+                                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                                                <h5>MERN Stack Development</h5>
+                                                <h5>75%</h5>
+                                            </div>        
+                                            <ProgressBar striped variant="warning" now={75} style={{height:"8px"}}/>
                                         </div>
                                     </div>
                                 </Col>

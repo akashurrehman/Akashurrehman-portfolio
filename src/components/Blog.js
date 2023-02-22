@@ -1,5 +1,5 @@
 import {React} from 'react';
-import { Row,Col,Card } from 'react-bootstrap';
+import { Row,Col,Card,Button } from 'react-bootstrap';
 
 function Blog(){
     const data = [
@@ -20,7 +20,7 @@ function Blog(){
         }
       ];
     return (
-        <div className="pt-5" style={{paddingLeft:"3rem"}} id="Blog">
+        <div className="pt-5" style={{paddingLeft:"3rem",paddingTop:"6rem", backgroundColor:"#F9F9FF",paddingBottom:"3rem"}} id="Blog">
             Latest Posts
         <Row>
         {data.map(card => (
@@ -34,7 +34,11 @@ function Blog(){
             </Card>
             </Col>
         ))}
-        
+        <Col xs={12} md={12} style={{justifyContent:"center",alignItems:"center"}}>
+        <Button variant="primary" type="submit" className='mt-3 px-5' style={{backgroundColor:"#FE7485",borderRadius:"14px",borderColor:"#FE7485"}}>
+              Show All Blogs
+        </Button>
+        </Col>
     </Row>
     </div>
     )

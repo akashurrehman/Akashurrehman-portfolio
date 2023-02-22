@@ -18,7 +18,7 @@ function Reviews() {
       ];
       
     return (
-        <div className="pt-5" style={{paddingLeft:"3rem"}} id="Reviews">
+        <div className="pt-5" style={{paddingLeft:"3rem",paddingTop:"6rem", backgroundColor:"#F9F9FF",paddingBottom:"3rem"}} id="Reviews">
             <Row>
                 <Col xs={12}>
                     <h2>Clients & Reviews</h2>

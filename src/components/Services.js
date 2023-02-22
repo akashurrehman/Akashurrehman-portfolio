@@ -3,7 +3,7 @@ import {Card, Col, Row} from 'react-bootstrap';
 
 function Services() {
     return (
-        <div className="pt-5" style={{paddingLeft:"3rem"}} id="Services">
+        <div className="pt-5" style={{paddingLeft:"3rem",paddingTop:"6rem", backgroundColor:"#F9F9FF",paddingBottom:"3rem"}} id="Services">
             <Row>
                 <Col xs={12}>
                     <h2>Services</h2>
